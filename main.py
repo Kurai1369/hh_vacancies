@@ -1,6 +1,6 @@
 """Точка входа в приложение"""
 
-#import logging
+# import logging
 
 from src.api.hh_client import HHClient
 from src.cli.interface import run_interface
@@ -8,7 +8,7 @@ from src.config import Config
 from src.database.db_initializer import create_database, create_tables
 from src.database.db_manager import DBManager
 
-#logging.basicConfig(level=logging.DEBUG, format="%(levelname)s: %(message)s")
+# logging.basicConfig(level=logging.DEBUG, format="%(levelname)s: %(message)s")
 
 # Список ID компаний для сбора данных
 # проверенные employer_id (актуальные на 2026)
